@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "ms-python.python",           // Python support
+        "ms-python.debugpy",          // Python debugging
+        "ms-python.pylint",           // Python linting
+        "ms-vscode.vscode-json",      // JSON support for config files
+        "yzhang.markdown-all-in-one", // For README editing
+        "ms-vscode.sqlite-viewer"     // To view your SQLite database
+    ],
+    "unwantedRecommendations": [
+        "ms-vscode.cpptools",         // Not needed for Python
+        "ms-dotnettools.csharp",      // Not needed for Python
+        "golang.go",                  // Not needed for Python
+        "continues.vscode-jupyter", // Not needed for Python
+    ]
+}

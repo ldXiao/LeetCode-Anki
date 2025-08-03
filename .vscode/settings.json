@@ -1,0 +1,15 @@
+{
+    // Disable specific extensions for this workspace
+    "extensions.ignoreRecommendations": false,
+    
+    // Disable extensions by ID
+    "extensions.autoUpdate": false,
+    
+    // Example: Disable specific extensions
+    "python.defaultInterpreterPath": "./.venv/Scripts/python.exe",
+    
+    // You can also set extension-specific settings
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true
+}
